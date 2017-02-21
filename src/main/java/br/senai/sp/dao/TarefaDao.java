@@ -24,8 +24,7 @@ public class TarefaDao implements InterfaceDao<Tarefa> {
 		
 	}
 
-	public Tarefa buscar(Long id) {
-	
+	public Tarefa buscar(Long id) {	
 		return manager.find(Tarefa.class, id);
 	}
 
