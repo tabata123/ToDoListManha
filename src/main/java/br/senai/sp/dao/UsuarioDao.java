@@ -30,6 +30,7 @@ public class UsuarioDao {
 		try {
 			return query.getSingleResult();
 		} catch (Exception e) {
+			e.printStackTrace();
 			return null;
 		}		
 	}
